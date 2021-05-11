@@ -24,7 +24,7 @@
  * the latter is a manifest file that contains important project information.  The package.json
  * file is automatically installed when the following commands are run in the terminal:
  *
- * npm init --> walk through all of the various properties within the file
+ * npm init --> walk through all of the various properties within the file - step-by-step procedures
  * npm init -y ("y" stands for "yes") --> all properties added by default.  These can be changed later.
  *
  * The package.json file can also be created manually in the project root folder.
