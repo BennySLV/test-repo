@@ -24,8 +24,13 @@
  * the latter is a manifest file that contains important project information.  The package.json
  * file is automatically installed when the following commands are run in the terminal:
  *
- * npm init --> walk through all of the various properties within the file - step-by-step procedures
- * npm init -y ("y" stands for "yes") --> all properties added by default.  These can be changed later.
+ * npm init
+ *
+ * Walk through all of the various properties within the file - step-by-step procedures
+ *
+ * npm init -y
+ *
+ * ("y" stands for "yes") --> all properties added by default.  These can be changed later.
  *
  * The package.json file can also be created manually in the project root folder.
  * Then hard-coding all packages manually within the file itself.
@@ -33,7 +38,7 @@
  * highly time-consuming as well as error-prone.
  */
 
-const _ = require("lodash");
+const _ = require("lodash"); // The underscore (ie. "_") is a common convention to naming variables used for importing dependencies
 
 const items = [1, [2, [3, [4]]]];
 const newItems = _.flattenDeep(items);
